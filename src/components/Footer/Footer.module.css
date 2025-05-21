@@ -1,0 +1,29 @@
+.rodape {
+    background-color: var(--color-neutral-900);
+}
+
+.conteudo {
+    margin: 0 auto;
+    max-width: var(--container-xl);
+    overflow: hidden;
+    padding: var(--space-x12) var(--space-x4);
+}
+
+.texto {
+    color: var(--color-neutral-400);
+    font-size: var(--body3-size);
+    font-weight: var(--body3-weight);
+    text-align: center;
+}
+
+@media screen and (min-width: var(--container-sm)) {
+    .conteudo {
+        padding: var(--space-x12) var(--space-x6);
+    }
+}
+
+@media screen and (min-width: var(--container-lg)) {
+    .conteudo {
+        padding: var(--space-x12) var(--space-x8);
+    }
+}
