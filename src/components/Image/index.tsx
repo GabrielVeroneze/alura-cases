@@ -1,6 +1,6 @@
 import { ElementType } from 'react'
-import { Box } from '@/components/Box'
 import { PolymorphicProps } from '@/types/Polymorphic'
+import Box from '@/components/Box'
 import styles from './Image.module.css'
 
 interface ImageProps {

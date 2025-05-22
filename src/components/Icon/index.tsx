@@ -1,6 +1,6 @@
-import * as iconSet from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Box } from '@/components/Box'
+import * as iconSet from '@fortawesome/free-solid-svg-icons'
+import Box from '@/components/Box'
 import styles from './Icon.module.css'
 
 function capitalize(str: string) {

@@ -1,6 +1,6 @@
 import { ElementType } from 'react'
-import { Text } from '@/components/Text'
 import { PolymorphicProps } from '@/types/Polymorphic'
+import Text from '@/components/Text'
 import styles from './Button.module.css'
 
 interface ButtonProps {

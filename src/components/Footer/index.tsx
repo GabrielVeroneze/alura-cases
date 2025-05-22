@@ -1,5 +1,5 @@
-import { Box } from '@/components/Box'
-import { Text } from '@/components/Text'
+import Box from '@/components/Box'
+import Text from '@/components/Text'
 import styles from './Footer.module.css'
 
 export default function Footer() {
