@@ -12,7 +12,7 @@ interface IconProps {
     className?: string
 }
 
-export function Icon({ iconVariant, className = '', ...props }: IconProps) {
+export default function Icon({ iconVariant, className = '', ...props }: IconProps) {
     const iconName = `fa${capitalize(iconVariant)}` as keyof typeof iconSet
     const icon = iconSet[iconName] as iconSet.IconDefinition
 

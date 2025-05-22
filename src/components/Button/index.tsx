@@ -8,7 +8,7 @@ interface ButtonProps {
     className?: string
 }
 
-export function Button<T extends ElementType = 'button'>({
+export default function Button<T extends ElementType = 'button'>({
     as,
     buttonVariant = 'primary',
     className = '',

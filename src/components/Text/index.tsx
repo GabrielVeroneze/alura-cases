@@ -7,7 +7,7 @@ interface TextProps {
     className?: string
 }
 
-export function Text<T extends ElementType = 'span'>({
+export default function Text<T extends ElementType = 'span'>({
     as,
     className = '',
     ...props

@@ -7,7 +7,7 @@ interface BoxProps {
     srOnly?: boolean
 }
 
-export function Box<T extends ElementType = 'div'>({
+export default function Box<T extends ElementType = 'div'>({
     as,
     className,
     srOnly,

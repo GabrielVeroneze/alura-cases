@@ -7,7 +7,7 @@ interface InputProps {
     className?: string
 }
 
-export function Input<T extends ElementType = 'input'>({
+export default function Input<T extends ElementType = 'input'>({
     as,
     className = '',
     ...props

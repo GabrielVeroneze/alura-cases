@@ -7,7 +7,7 @@ interface ImageProps {
     className?: string
 }
 
-export function Image<T extends ElementType = 'img'>({
+export default function Image<T extends ElementType = 'img'>({
     as,
     className,
     ...props
