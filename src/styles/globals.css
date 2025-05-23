@@ -26,16 +26,16 @@ html {
     height: 100%;
 }
 
-body, #__next {
+body, .layout-principal {
     height: 100%;
 }
 
-#__next {
+.layout-principal {
     display: flex;
     flex-direction: column;
 }
 
-#__next > * {
+.layout-principal > * {
     align-items: stretch;
     display: flex;
     flex: 1;
