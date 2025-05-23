@@ -5,11 +5,13 @@ import styles from './Text.module.css'
 
 interface TextProps {
     className?: string
+    srOnly?: boolean
 }
 
 export default function Text<T extends ElementType = 'span'>({
     as,
     className = '',
+    srOnly,
     ...props
 }: PolymorphicProps<T, TextProps>) {
     const Tag = as || 'span'
@@ -18,6 +20,7 @@ export default function Text<T extends ElementType = 'span'>({
         <Box
             as={Tag}
             className={`${styles.text} ${className}`}
+            srOnly={srOnly}
             {...props}
         />
     )
