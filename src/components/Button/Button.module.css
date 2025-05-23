@@ -46,7 +46,7 @@
     background-color: var(--color-neutral-700);
 }
 
-@media screen and (min-width: var(--container-sm)) {
+@media screen and (min-width: 640px) {
     .button {
         padding: var(--space-x3) var(--space-x10);
     }

@@ -16,13 +16,13 @@
     text-align: center;
 }
 
-@media screen and (min-width: var(--container-sm)) {
+@media screen and (min-width: 640px) {
     .conteudo {
         padding: var(--space-x12) var(--space-x6);
     }
 }
 
-@media screen and (min-width: var(--container-lg)) {
+@media screen and (min-width: 1024px) {
     .conteudo {
         padding: var(--space-x12) var(--space-x8);
     }

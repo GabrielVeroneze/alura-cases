@@ -12,7 +12,7 @@
     box-shadow: 0 5px 16px 0px var(--color-neutral-999) 73;
 }
 
-@media screen and (min-width: var(--container-sm)) {
+@media screen and (min-width: 640px) {
     .container {
         margin: 0 auto;
         max-width: var(--container-md);
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (min-width: var(--container-md)) {
+@media screen and (min-width: 768px) {
     .container {
         padding: 0 var(--space-x8);
     }
@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (min-width: var(--container-lg)) {
+@media screen and (min-width: 1024px) {
     .wrapper {
         padding-bottom: var(--space-x16);
         position: absolute;
