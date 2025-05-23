@@ -73,7 +73,7 @@ export default function HomeScreen() {
                                         <Text
                                             as="label"
                                             htmlFor="email"
-                                            className=".sr-only"
+                                            srOnly
                                         >
                                             Email address
                                         </Text>
