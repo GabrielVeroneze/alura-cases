@@ -9,7 +9,7 @@ import SideImage from '@/components/SideImage'
 import Footer from '@/components/Footer'
 import styles from './page.module.css'
 
-const LOGO_ALURA_URL = 'https://fakeimg.pl/94x44'
+const LOGO_ALURA_URL = '/images/alura-logo.svg'
 
 export default function HomeScreen() {
     return (
@@ -70,11 +70,7 @@ export default function HomeScreen() {
                                     action="#"
                                 >
                                     <Box className={styles.inputWrapper}>
-                                        <Text
-                                            as="label"
-                                            htmlFor="email"
-                                            srOnly
-                                        >
+                                        <Text as="label" htmlFor="email" srOnly>
                                             Email address
                                         </Text>
                                         <Input

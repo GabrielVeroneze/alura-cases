@@ -2,7 +2,7 @@ import Box from '@/components/Box'
 import Image from '@/components/Image'
 import styles from './SideImage.module.css'
 
-const SIDE_IMAGE_URL = 'https://fakeimg.pl/2878x1640'
+const SIDE_IMAGE_URL = '/images/alura-cases.png'
 
 export default function SideImage() {
     return (
