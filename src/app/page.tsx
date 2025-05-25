@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Box from '@/components/Box'
 import Image from '@/components/Image'
 import Button from '@/components/Button'
@@ -9,9 +10,13 @@ import SideImage from '@/components/SideImage'
 import Footer from '@/components/Footer'
 import styles from './page.module.css'
 
+export const metadata: Metadata = {
+    title: 'Home - Alura Cases',
+}
+
 const LOGO_ALURA_URL = '/images/alura-logo.svg'
 
-export default function HomeScreen() {
+export default function Home() {
     return (
         <Box>
             <Box className={styles.main} as="main">
