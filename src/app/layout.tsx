@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Open_Sans } from 'next/font/google'
+import Script from 'next/script'
 import '@/styles/variables.css'
 import '@/styles/globals.css'
 
@@ -20,6 +21,21 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
     return (
         <html lang="pt-br">
+            <head>
+                <Script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-MV6MBCN0QV"
+                />
+                <Script id="google-analytics">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'G-MV6MBCN0QV');
+                    `}
+                </Script>
+            </head>
             <body className={openSans.variable}>
                 <div className="layout-principal">{children}</div>
             </body>
